@@ -1,0 +1,141 @@
+{
+    "Reservations": [
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "enabled"
+                    }, 
+                    "PublicDnsName": "ec2-54-157-20-123.compute-1.amazonaws.com", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-05-30T18:49:14.000Z", 
+                    "PublicIpAddress": "54.157.20.123", 
+                    "PrivateIpAddress": "10.0.1.165", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-6c090a17", 
+                    "CpuOptions": {
+                        "CoreCount": 2, 
+                        "ThreadsPerCore": 1
+                    }, 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-04b94c5715420a7e6", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-55ef662f", 
+                    "PrivateDnsName": "ip-10-0-1-165.ec2.internal", 
+                    "KeyName": "uoftada", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "JenkinsStack-InstanceSecurityGroup-QFCVX9Q9EXTE", 
+                            "GroupId": "sg-291e4761"
+                        }
+                    ], 
+                    "ClientToken": "22f58ec9-87be-8a69-6dfc-878c6a4eda89_subnet-201d8d6a_1", 
+                    "SubnetId": "subnet-201d8d6a", 
+                    "InstanceType": "t2.medium", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "0a:03:fb:3f:92:70", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-6c090a17", 
+                            "Description": "", 
+                            "NetworkInterfaceId": "eni-4c1471dd", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-0-1-165.ec2.internal", 
+                                    "PrivateIpAddress": "10.0.1.165", 
+                                    "Primary": true, 
+                                    "Association": {
+                                        "PublicIp": "54.157.20.123", 
+                                        "PublicDnsName": "ec2-54-157-20-123.compute-1.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-10-0-1-165.ec2.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-c5d32fcd", 
+                                "AttachTime": "2018-05-30T18:49:14.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "JenkinsStack-InstanceSecurityGroup-QFCVX9Q9EXTE", 
+                                    "GroupId": "sg-291e4761"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "OwnerId": "342931113051", 
+                            "PrivateIpAddress": "10.0.1.165", 
+                            "SubnetId": "subnet-201d8d6a", 
+                            "Association": {
+                                "PublicIp": "54.157.20.123", 
+                                "PublicDnsName": "ec2-54-157-20-123.compute-1.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-1b"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-010f5b685df3b906b", 
+                                "AttachTime": "2018-05-30T18:49:14.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "IamInstanceProfile": {
+                        "Id": "AIPAJJEBOJ7XWP2URYR7U", 
+                        "Arn": "arn:aws:iam::342931113051:instance-profile/JenkinsStack-JenkinsInstanceProfile-1JXJXD6VW5GFR"
+                    }, 
+                    "RootDeviceName": "/dev/xvda", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "WebServerGroup", 
+                            "Key": "aws:cloudformation:logical-id"
+                        }, 
+                        {
+                            "Value": "JenkinsStack-WebServerGroup-ISAWY7VB28L2", 
+                            "Key": "aws:autoscaling:groupName"
+                        }, 
+                        {
+                            "Value": "JenkinsStack", 
+                            "Key": "aws:cloudformation:stack-name"
+                        }, 
+                        {
+                            "Value": "arn:aws:cloudformation:us-east-1:342931113051:stack/JenkinsStack/caa22ea0-6439-11e8-a4bb-50fae9826c99", 
+                            "Key": "aws:cloudformation:stack-id"
+                        }, 
+                        {
+                            "Value": "Jenkins", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-06a973c6e951807ab", 
+            "RequesterId": "940372691376", 
+            "Groups": [], 
+            "OwnerId": "342931113051"
+        }
+    ]
+}
